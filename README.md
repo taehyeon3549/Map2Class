@@ -2,7 +2,8 @@
 Convert Map Data to Class Data. (create class data used by map data)
 
 
-public Object convert(Map<String, Object> map, Class t) throws InstantiationException, IllegalAccessException {
+
+		public Object convert(Map<String, Object> map, Class t) throws InstantiationException, IllegalAccessException {
 		Object obj = t.newInstance();
 
 		String keyAttribute = null;
